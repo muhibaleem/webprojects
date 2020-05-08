@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WM8715 Muhib Protfolio</title>
+    <link rel="stylesheet" href="css/styleassign2.css" >
+
+</head>
+<body class="bbb">
+
+    <img src="pictures/saylanilogo.png" alt="" class="logo">
+    <h1>STUDENT REGISTRATION FORM</h1>
+    
+    <form method="POST" action="assign2_2.html">
+        
+<table class="tablebg">
+    <tr>
+        <td>FIRST NAME</td>
+        <td> <input type="text" name="firstname" size="20" 
+            maxlength="20" placeholder="Enter first name" required  /> (max 30 characters a-z and A-Z) </td>
+    </tr>
+
+    <tr>
+        <td>LAST NAME</td>
+        <td><input type="text" name="lastname" size="20" 
+            maxlength="20" placeholder="Enter last name" required /> (max 30 characters a-z and A-Z)</td>
+    </tr>
+
+    <tr>
+        <td>DATE OF BIRTH</td>
+        <td><input type="date" name="date" required /> </td>
+    </tr>
+
+    <tr>
+        <td>EMAIL ID</td>
+        <td><input type="email" name="email" size="20" 
+            maxlength="20" placeholder="Enter emmail address" required /> </td>
+    </tr>
+
+    <tr>
+        <td>MOBILE NUMBER</td>
+        <td><input type="number" name="mobilenumber" size="20" 
+            maxlength="10" placeholder="Enter mobile number" required /> (10 digit number)</td>
+    </tr>
+
+    <tr>
+        <td>GENDER</td>
+        <td> Male <input type="radio" name="gender" value="male"/> 
+            Female <input type="radio" name="gender" value="female" required/>  </td>
+    </tr>
+
+    <tr>
+        <td>ADDRESS</td>
+        <td> <input type="textarea"  name="textarea" size="50"
+                maxlength="50" style="width:300px; height: 70px;" required /> </td>
+    </tr>
+
+    <tr>
+        <td>CITY</td>
+        <td><input type="text" name="cityname" size="20" 
+            maxlength="20" placeholder="Enter city name" required /> (max 30 characters a-z and A-Z)</td>
+    </tr>
+
+    <tr>
+        <td>PIN CODE</td>
+        <td><input type="number" name="pincode" size="20" 
+            maxlength="6" placeholder="Enter pincode" required /> (6 digit number)</td>
+    </tr>
+
+    <tr>
+        <td>STATE</td>
+        <td><input type="text" name="satename" size="20" 
+            maxlength="20" placeholder="Enter state" required /> (max 30 characters a-z and A-Z)</td>
+    </tr>
+
+    <tr>
+        <td>COUNTRY</td>
+        <td><input type="text" name="countryname" size="20" 
+            maxlength="20" placeholder="Enter country" required /> </td>
+    </tr>
+
+    <tr>
+        <td>HOBBIES</td>
+        <td>Drawing <input type="checkbox" value="drawing" name="abc"/> 
+            Singing <input type="checkbox" value="singing" name="abc"/>
+            Dancing <input type="checkbox" value="dancing" name="abc"/>
+            Sketching <input type="checkbox" value="sketching" name="abc"/> <br/>
+            Others <input type="checkbox" value="others" name="abc"/> 
+            <input type="text" name="otherhobbies" size="20" 
+            maxlength="20" />
+        </td>
+    </tr>
+
+    <tr>
+        <td>QUALIFICATION</td>
+        <td>
+            <table >
+            <tr>
+                <td>Sl.No.</td>
+                <td>Examination</td>
+                <td>Board</td>
+                <td>Percentage</td>
+                <td>Year of Passing</td></tr>
+                
+            <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text" name="classXboard" size="15" 
+                    maxlength="10"required/> </td>
+                <td><input type="number" name="classXpercentage" required name="price" min="0" 
+                     step="0.01"  pattern="^\d+(?:\.\d{1,2})?$" /> </td>
+                <td><input type="number" name="classXyearofpassing" size="15" 
+                    maxlength="4" required/> </td></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text" name="classXIIboard" size="15" 
+                    maxlength="10"required/> </td>
+                <td><input type="number" name="classXIIpercentage" required name="price" min="0" 
+                     step="0.01"  pattern="^\d+(?:\.\d{1,2})?$" /> </td>
+                <td><input type="number" name="classXIIyearofpassing" size="15" 
+                    maxlength="4" required /> </td></td>
+            </tr>
+
+            <tr><td>3</td>
+                <td>Graduation</td>
+                <td><input type="text" name="GraduationBoard" size="15" 
+                    maxlength="10" required/> </td>
+                <td><input type="number" name="GraduationPercentage" required name="price" min="0" 
+                     step="0.01"  pattern="^\d+(?:\.\d{1,2})?$" /> </td>
+                <td><input type="number" name="GraduationYearofpassing" size="15" 
+                    maxlength="4" required /> </td></td>
+            </tr>
+
+            <tr><td>4</td>
+                <td>Masters</td>
+                <td><input type="text" name="MastersBoard" size="15" 
+                    maxlength="10" required/> </td>
+                <td><input type="number" name="MastersPercentage" required name="price" min="0" 
+                     step="0.01"  pattern="^\d+(?:\.\d{1,2})?$" /> </td>
+                <td><input type="number" name="MastersYearofpassing" size="15" 
+                    maxlength="4" required/> </td></td>
+            </tr>
+
+            <tr><td></td>
+                <td></td>
+                <td align="center">(10 char max)</td>
+                <td align="center">(upto 2 decimal)</td>
+                <td></td></tr>
+            </table>
+        </td>
+    </tr>
+
+    <tr>
+        <td>COURSES <br> APPLIED FOR</td>
+        <td>BCA <input type="radio" name="course" value="BCA"/> 
+            B.COM <input type="radio" name="course" value="B.COM"/>
+            B.Sc <input type="radio" name="course" value="B.Sc"/> 
+            B.A <input type="radio" name="course" value="B.A" required/></td>
+    </tr>
+
+    <tr align="center"> 
+    
+        <td colspan="2">  <button type="submit" > Submit  </button>    
+            <button type="reset">Reset</button></td>
+    
+    </tr>
+
+
+</table>
+
+
+</form>
+
+</body>
+</html>

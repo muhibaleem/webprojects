@@ -1,0 +1,706 @@
+body{
+    background-color: whitesmoke;
+}
+.divone{
+    background-color: royalblue;
+    height: 55px;
+    width: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.text1{
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    cursor: text;
+}
+img.fbimg{
+    position: absolute;
+    top: 15px;
+    left: 110px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+img.twitterimg{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+img.instaimg{
+    position: absolute;
+    top: 15px;
+    left: 185px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+img.utubeimg{
+    position: absolute;
+    top: 15px;
+    left: 225px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+img.whatsappimg{
+    position: absolute;
+    top: 15px;
+    left: 265px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.ukk{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 300px ;
+}
+.donatenow{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 180px;
+}
+.smitresults{
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+}
+.button1,.button2,.button3{
+    cursor: pointer;
+}
+/* .div2{
+    width: auto;
+    height: 70px;
+} */
+img.img6{
+    position: relative;
+    top: 0px;
+    left: 400px;
+    height: 60px;
+    width: 250px;
+}
+
+
+
+
+
+img.img7{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: inline-block;
+}
+.div4{
+    background-color: royalblue;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.marque{
+    color: white;
+    padding-top: 5px;
+    cursor: text;
+}
+h1.intro{
+    text-align: center;
+    color: royalblue;
+    margin-top: 60px;
+    cursor: text;
+}
+.logo{
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+}
+span{
+    color: green;
+    cursor: text;
+}
+.text2{
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+    cursor: text;
+}
+.div6{
+    background-color: royalblue;
+    width: auto;
+    height: 300px;
+}
+img.img8{
+    position: relative;
+    top: 80px;
+    left: 155px;
+    width: 50px;
+     
+    /* display: inline-block; */
+}
+img.img9{
+    position: relative;
+    top: 80px;
+    left: 435px;
+    width: 50px;
+    /* display: inline-block; */
+}
+img.img10{
+    position: relative;
+    top: 80px;
+    left: 700px;
+    width: 50px;
+}
+img.eduu{
+    position: relative; 
+    top: 80px;
+    left: 970px;
+    width: 50px;
+}
+.div7{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+h1.txt125{
+    display: inline-block;
+}
+h1.txt7500{
+    display: inline-block;
+}
+h1.txt43{
+    display: inline-block;
+}
+h1.txt180{
+    display: inline-block;
+}
+.div8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+h1.whatwe{
+    text-align: center;
+    color: royalblue;
+    margin-top: 60px;
+    cursor: text;
+}
+.logo1{
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    cursor: pointer;
+}
+/* td {
+     background-color: #0088dd;
+     width: 350px;
+     height: 200px;
+
+}
+table.one{
+     border-spacing: 70px 40px;
+}
+img.imgsadqa{
+    position: absolute;
+    top: 50px;
+} */
+.onediv{
+    background-color: snow;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 100px;
+}
+.twodiv{
+    background-color: snow;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 20px;
+}
+.threediv{
+    background-color: snow;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 20px;
+}
+.fourdiv{
+    background-color: snow;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 100px;
+}
+.fivediv{
+    background-color: snow;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 20px;
+}
+.sixdiv{
+    background-color: snow;
+    height: 180px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 20px;
+}
+img.imgs{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    cursor: pointer;
+}
+p.ps{
+    position: relative;
+    top: 20px;
+    left: 90px;
+    cursor: text;
+    font-size: 25px;
+}
+img.imgw{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    cursor: pointer;
+}
+p.pw{
+    position: relative;
+    top: 20px;
+    left: 120px;
+    cursor: text;
+    font-size: 25px;
+}
+img.imgm{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    cursor: pointer;
+}
+p.pm{
+    position: relative;
+    top: 30px;
+    left: 130px;
+    cursor: text;
+    font-size: 25px;
+}
+img.imgd{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    cursor: pointer;
+}
+p.pd{
+    position: relative;
+    top: 20px;
+    left: 90px;
+    cursor: text;
+    font-size: 25px;
+}
+.imgro{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    cursor: pointer;
+}
+p.pro{
+    position: relative;
+    top: 20px;
+    left: 125px;
+    cursor: text;
+    font-size: 25px;
+}
+img.imgedu{
+    position: relative;
+    top: 20px;
+    left: 150px;
+    cursor: pointer;
+}
+p.pedu{
+    position: relative;
+    top: 20px;
+    left: 115px;
+    cursor: text;
+    font-size: 25px;
+}
+.maindivofsix{
+    margin-top: 40px;
+}
+
+
+
+
+.maindivoffour{
+    margin-top: 60px;
+    background-color: royalblue;
+    height: 350px;
+}
+
+h1.upcoming{
+    color: wheat;
+    padding-top: 30px;
+    padding-left: 90px;
+    display: inline;
+}
+h1.mission{
+    color: wheat;
+    padding-top: 20px;
+    padding-left: 150px;
+    display: inline-block;
+}
+/*
+.onedivv{
+    background-color: teal;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 20px 10px 5px 90px;
+}
+img.imghep{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.hep{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+.twodivv{
+    background-color: teal;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 5px 10px 5px 30px;
+}
+img.imghou{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.hou{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+.verticaldiv{
+    background-color: teal;
+    height: 270px;
+    width: 260px;
+    display: inline-block;
+    margin: 0px 10px 5px 75px;
+}
+.threedivv{
+    background-color: teal;
+    height: 60px;
+    width: 350px;
+    margin: 5px 10px 5px 90px;
+    display: inline-block;
+}
+img.imgit{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.it{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+.fourdivv{
+    background-color: teal;
+    height: 60px;
+    width: 350px;
+    margin: 5px 10px 5px 30px;
+    display: inline-block;
+}
+img.imgtha{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.tha{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+} */
+.onedivv{
+    background-color: wheat;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 30px 10px 5px 200px;
+}
+img.imghep{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.hep{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+.twodivv{
+    background-color: wheat;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 30px 10px 5px 5px;
+}
+img.imghou{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.hou{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+.verticaldiv{
+    background-color: wheat;
+    height: 200px;
+    width:  250px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 90px;
+    float: left;
+}
+.threedivv{
+    background-color: wheat;
+    height: 60px;
+    width: 350px;
+    margin: 30px 10px 5px 200px;
+    display: inline-block;
+}
+img.imgit{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.it{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+.fourdivv{
+    background-color: wheat;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 30px 10px 5px 5px;
+}
+img.imgtha{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+p.tha{
+    position: relative;
+    top: 0px;
+    left: 30px;
+    font-size: 20px;
+    cursor: text;
+    display: inline-block;
+}
+
+h1.image{
+    color: royalblue;
+    padding-top: 30px;
+    padding-left: 540px;
+    display: inline-block;
+}
+h1.gallery{
+    color: green;
+    padding-top: 30px;
+    display: inline-block;
+}
+img.lastlogo{
+    margin-top: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+    cursor: pointer;
+}
+
+.lastdiv{
+    height: 400px;
+}
+
+.oneediv{
+    height: 160px;
+    width: 230px;
+    display: inline-block;
+    margin: 10px 2px 5px 80px;
+}
+.twoodiv{
+    height: 160px;
+    width: 230px;
+    display: inline-block;
+    margin: 10px 2px 5px 2px;
+}
+.threediv{
+    height: 160px;
+    width: 230px;
+    display: inline-block;
+    margin: 10px 2px 5px 2px;
+}
+
+.fourrdiv{
+    height: 160px;
+    width: 230px;
+    display: inline-block;
+    margin: 10px 2px 5px 2px;
+}
+.fiveediv{
+    height: 160px;
+    width: 230px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 2px;
+    margin-bottom: 5px;
+}
+
+img.oneeimg{
+    position: relative;
+    top: 0px;
+    width: 230px;
+    height: 160;
+    cursor: pointer;
+}
+img.twooimg{
+    position: relative;
+    top: 0px;
+    width: 230px;
+    height: 160;
+    cursor: pointer;
+}
+img.threeimg{
+    position: relative;
+    top: 0px;
+    width: 230px;
+    height: 160;
+    cursor: pointer;
+}
+img.fourrimg{
+    position: relative;
+    top: 0px;
+    width: 230px;
+    height: 160;
+    cursor: pointer;
+}
+img.fiveeimg{
+    position: relative;
+    top: 0px;
+    width: 230px;
+    height: 160;
+    cursor: pointer;
+}
+.footer{
+    width: auto;
+    height: 400px;
+    background-color: #353839;
+}
+
+h3.usefull{
+    color: white;
+    padding-top: 30px;
+    padding-left: 450px;
+    display: inline-block;
+}
+h3.connect{
+    color: white;
+    padding-top: 30px;
+    margin-left: 300px;
+    display: inline-block;
+}
+.harisdiv{
+    background-color: #353839;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 0px 10px 0px 100px;
+}
+.finalimagediv{
+    background-color: #353839;
+    height: 60px;
+    width: 350px;
+    display: inline-block;
+    margin: 0px 10px 0px 450px;
+}
+.finalimag1{
+    margin: 0px 5px 0px 5px;
+}
+.finalimage2{
+    margin: 0px 5px 0px 5px;
+}
+.finalimage3{
+    margin: 0px 5px 0px 5px;
+}
+.finalimag4{
+    margin: 0px 5px 0px 5px;
+}
+.harisdiv2{
+    background-color: #353839;
+    height: 120px;
+    width: 350px;
+    display: inline-block;
+    margin: 0px 10px 0px 100px;
+}
+.end{
+    width: auto;
+    height: 50px;
+    background-color: royalblue;
+}
+.endtext{
+    padding-left: 95px;
+    padding-top: 10px;
+}
+.gotop{
+    margin-left: 1100px;
+    width: 100px;
+    border-radius: 1px;
+}
